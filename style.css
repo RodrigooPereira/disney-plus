@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Avenir Roman";
+    overflow-x: hidden;
+}
+
+section#inicio {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagens/bg-grande-teste.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+
+section#inicio p {
+    color: rgba(192, 192, 192, 0.8);
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 32px;
+    background-color: #040714;
+    border: 1px solid silver;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition-duration: 0.5s;
+}
+
+a.login:hover {
+    background-color: #f9f9f9;
+    color: #040714;
+}
+
+.conteudo {
+    margin-left: 6vw;
+}
+
+.logo {
+    max-width: 180px;
+    max-height: 98px;
+    margin-bottom: 15px;
+}
+
+.h1inicio {
+    color: #f1f1f1;
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+div#container-precos {
+    display: flex;
+    width: 640px;
+}
+
+.precos {
+    width: 300px;
+    margin-right: 12px;
+}
+
+span {
+    color: #f1f1f1;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.preco {
+    margin-bottom: 8px;
+}
+
+.texto-sub {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.sub {
+    text-decoration: none;
+    background: #016cf9;
+    color: #f1f1f1;
+    width: 290px;
+    padding: 16.5px 24px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.precos:first-child {
+    display: grid;
+}
+
+.precos:first-child a {
+    align-self: end;
+}
+
+.pequenas {
+    width: 600px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.second {
+    height: 100vh;
+    background-color: #040714;
+}
