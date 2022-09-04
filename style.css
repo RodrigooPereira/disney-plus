@@ -13,10 +13,14 @@
     overflow-x: hidden;
 }
 
+body {
+    background-color: #040714;
+}
+
 section#inicio {
     height: 100vh;
     width: 100vw;
-    background-image: url(imagens/bg-grande-teste.jpg);
+    background-image: url(imagens/bg-grande.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -29,6 +33,7 @@ section#inicio p {
 
 .login {
     position: absolute;
+    position: fixed;
     top: 15px;
     right: 32px;
     background-color: #040714;
@@ -121,6 +126,87 @@ span {
 }
 
 .second {
-    height: 100vh;
-    background-color: #040714;
+    height: 110vh;
+    display: flex;
+}
+
+.second-image-div {
+    width: 50vw;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.second-image {
+    width: 44.5vw;
+    height: 78vh;
+    margin-right: 0.5vw;
+}
+
+.second-text {
+    width: 40vw;
+    height: 110vh;
+}
+
+.second-text h2 {
+    color: #f9f9f9;
+    font-size: 40px;
+    margin-left: 1.5vw;
+    margin-top: 50px;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+.second-text li {
+    color: rgba(192, 192, 192, 0.8);
+    font-size: 20px;
+    list-style-type: disc;
+    margin-left: 4.5vw;
+    overflow-x: visible;
+    margin-bottom: 15px;
+}
+
+.third {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.fourth-devices {
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.fourth h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: #f9f9f9;
+}
+
+.devices {
+    height: 24vh;
+    width: 22vw;
+}
+
+.device-div {
+    width: 22.5vw;
+    text-align: center;
+}
+
+.device-div h3 {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #f9f9f9;
+    font-weight: 700;
+}
+
+.device-div li {
+    font-size: 18px;
+    color: rgba(192, 192, 192, 0.8);
+    margin-bottom: 1px;
 }
