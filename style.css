@@ -248,3 +248,15 @@ footer p {
     font-size: 12px;
     color: rgba(192, 192, 192, 0.8);
 }
+
+@media (max-width: 1000px) {
+
+    section#inicio {
+        background-image: url(imagens/bg-pequeno.jpg);
+    }
+
+    .conteudo {
+        justify-content: center;
+        text-align: center;
+    }
+}
